@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import argparse
 from enum import Enum
 
@@ -14,7 +16,7 @@ class Date(Enum):
 
 
 def main():
-    parser = argparse.ArgumentParser(description='test_runnable_app MY_APP.')
+    parser = argparse.ArgumentParser(description='Test executable application print_date')
 
     parser.add_argument('--days', default=0, type=int, help='default = 0. equals now')
     parser.set_defaults(days=0)

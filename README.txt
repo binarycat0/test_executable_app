@@ -1,1 +1,1 @@
-test_runnable_app
+Test executable application print_date

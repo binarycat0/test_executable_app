@@ -7,11 +7,7 @@ root = dirname(__file__)
 
 
 def _get_requirements():
-    recs = []
-    with open(join(root, 'requirements.txt')) as f:
-        for line in f:
-            recs.append(line.strip())
-    return recs
+    return open(join(root, 'requirements.txt')).read()
 
 
 setup(
