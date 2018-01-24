@@ -22,7 +22,7 @@ setup(
 
     entry_points={
         'console_scripts': [
-            'print_date = main:main',
+            'print_date = print_date.scripts.main:main',
         ]
     },
 

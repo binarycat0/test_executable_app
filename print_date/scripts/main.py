@@ -1,7 +1,7 @@
 import argparse
 from enum import Enum
 
-from print_date import app
+from print_date.app import app
 
 
 class Date(Enum):
