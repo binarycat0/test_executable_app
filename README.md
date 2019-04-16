@@ -3,7 +3,7 @@
 ## Install
 ```
 sudo apt-get install python3-pip
-sudo -H pip3 install git+https://github.com/catbinary/test_executable_app
+pip3 install git+https://github.com/catbinary/test_executable_app
 ```
 
 ## Help
